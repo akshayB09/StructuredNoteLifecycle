@@ -1,0 +1,43 @@
+# Rider
+.idea/
+*.sln.iml
+
+# Build results
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio cache files
+.vs/
+
+# NuGet
+*.nupkg
+packages/
+# Uncomment if necessary
+# project.lock.json
+# project.fragment.lock.json
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# Visual Studio Code
+.vscode/
+
+# Resharper
+_ReSharper*/
+*.DotSettings.user
+
+# dotnet watch
+.dotnetwatch
+
+# SourceLink
+*.sourcelink.json
