@@ -1,0 +1,11 @@
+/Users/akshaybhatnagar/projects/StructuredNoteLifecycle/src/StructuredNoteLifecycle.Domain/bin/Debug/net10.0/StructuredNoteLifecycle.Domain.deps.json
+/Users/akshaybhatnagar/projects/StructuredNoteLifecycle/src/StructuredNoteLifecycle.Domain/bin/Debug/net10.0/StructuredNoteLifecycle.Domain.dll
+/Users/akshaybhatnagar/projects/StructuredNoteLifecycle/src/StructuredNoteLifecycle.Domain/bin/Debug/net10.0/StructuredNoteLifecycle.Domain.pdb
+/Users/akshaybhatnagar/projects/StructuredNoteLifecycle/src/StructuredNoteLifecycle.Domain/obj/Debug/net10.0/StructuredNoteLifecycle.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/akshaybhatnagar/projects/StructuredNoteLifecycle/src/StructuredNoteLifecycle.Domain/obj/Debug/net10.0/StructuredNoteLifecycle.Domain.AssemblyInfoInputs.cache
+/Users/akshaybhatnagar/projects/StructuredNoteLifecycle/src/StructuredNoteLifecycle.Domain/obj/Debug/net10.0/StructuredNoteLifecycle.Domain.AssemblyInfo.cs
+/Users/akshaybhatnagar/projects/StructuredNoteLifecycle/src/StructuredNoteLifecycle.Domain/obj/Debug/net10.0/StructuredNoteLifecycle.Domain.csproj.CoreCompileInputs.cache
+/Users/akshaybhatnagar/projects/StructuredNoteLifecycle/src/StructuredNoteLifecycle.Domain/obj/Debug/net10.0/StructuredNoteLifecycle.Domain.dll
+/Users/akshaybhatnagar/projects/StructuredNoteLifecycle/src/StructuredNoteLifecycle.Domain/obj/Debug/net10.0/refint/StructuredNoteLifecycle.Domain.dll
+/Users/akshaybhatnagar/projects/StructuredNoteLifecycle/src/StructuredNoteLifecycle.Domain/obj/Debug/net10.0/StructuredNoteLifecycle.Domain.pdb
+/Users/akshaybhatnagar/projects/StructuredNoteLifecycle/src/StructuredNoteLifecycle.Domain/obj/Debug/net10.0/ref/StructuredNoteLifecycle.Domain.dll

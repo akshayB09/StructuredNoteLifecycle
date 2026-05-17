@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/StructuredNoteLifecycle.API/StructuredNoteLifecycle.API.csproj" />
+    <Project Path="src/StructuredNoteLifecycle.Application/StructuredNoteLifecycle.Application.csproj" />
+    <Project Path="src/StructuredNoteLifecycle.Domain/StructuredNoteLifecycle.Domain.csproj" />
+    <Project Path="src/StructuredNoteLifecycle.Infrastructure/StructuredNoteLifecycle.Infrastructure.csproj" />
+  </Folder>
+</Solution>
