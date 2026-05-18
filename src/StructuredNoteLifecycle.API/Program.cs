@@ -28,7 +28,7 @@ if (app.Environment.IsDevelopment())
     <script>
       window.onload = function() {
         SwaggerUIBundle({
-          url: '/openapi',
+          url: '/openapi/v1.json',
           dom_id: '#swagger-ui',
           presets: [SwaggerUIBundle.presets.apis, SwaggerUIStandalonePreset],
           layout: 'StandaloneLayout'
