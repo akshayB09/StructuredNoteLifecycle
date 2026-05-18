@@ -7,15 +7,37 @@ builder.Services.AddApplication();
 builder.Services.AddInfrastructure(builder.Configuration);
 
 builder.Services.AddControllers();
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddOpenApi();
 
 var app = builder.Build();
 
 if (app.Environment.IsDevelopment())
 {
-    app.UseSwagger();
-    app.UseSwaggerUI();
+    app.MapOpenApi();
+    app.MapGet("/swagger", () => Results.Text(@"<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset=""utf-8"" />
+    <title>Swagger UI</title>
+    <link rel=""stylesheet"" href=""https://cdn.jsdelivr.net/npm/swagger-ui-dist/swagger-ui.css"" />
+  </head>
+  <body>
+    <div id=""swagger-ui""></div>
+    <script src=""https://cdn.jsdelivr.net/npm/swagger-ui-dist/swagger-ui-bundle.js""></script>
+    <script src=""https://cdn.jsdelivr.net/npm/swagger-ui-dist/swagger-ui-standalone-preset.js""></script>
+    <script>
+      window.onload = function() {
+        SwaggerUIBundle({
+          url: '/openapi',
+          dom_id: '#swagger-ui',
+          presets: [SwaggerUIBundle.presets.apis, SwaggerUIStandalonePreset],
+          layout: 'StandaloneLayout'
+        });
+      };
+    </script>
+  </body>
+</html>",
+        "text/html; charset=utf-8"));
 }
 
 app.UseHttpsRedirection();
